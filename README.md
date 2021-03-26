@@ -7,7 +7,7 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/default_style.css');
+@import url('https://guardtoad.github.io/Monochromic/default_style.css');
 ```
 
 ![six](screenshots/6.png)
