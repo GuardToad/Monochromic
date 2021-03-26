@@ -227,7 +227,9 @@
 
 /*Size episode preview images in a more compact way*/
 .listItem:hover {
-	transition: 0.2s; background: rgba(0, 0, 0, 0.4);
+	transition: 0.2s;
+	/*Ignore this*/ 
+	/*background: rgba(0, 0, 0, 0.4);*/
 }
 .listItemImage.listItemImage-large.itemAction.lazy {
   transition: filter 0.2s
@@ -383,7 +385,8 @@
 /*Make watched icon, footer on chapter thumnails (and other things), and count indicator dark and transparent*/
 .innerCardFooter,
 .countIndicator, 
-.playedIndicator {
+/*ignore this*/
+/*.playedIndicator*/ {
   background: rgba(0,0,0,0.4); 
   box-shadow: none;
 }
@@ -720,9 +723,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 	margin: 0 !important;
 }
 
+/*ignore this*/
 /*Rating star, normally yellow*/
-.starIcon {
+/*.starIcon {
     color: rgba(255,255,255,.8);
+}*/
 }
 
 
@@ -875,7 +880,8 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background: #101010 !important;
 }
 
-.paper-icon-button-light:hover,
+/*ignore this*/
+/*.paper-icon-button-light:hover,
 .raised.homeLibraryButton:hover,
 .button-flat:hover,
 .playstatebutton-icon-played,
@@ -888,7 +894,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 .buttonActive,
 .button-link{
   color: rgba(120, 120, 120, 0.6) !important;
-}
+}*/
 
 #itemDetailPage .button-link {color: inherit !important;}
 
@@ -903,9 +909,10 @@ a[data-role="button"] {
 	transition: all 0.2s !important;
 }
 
-.paper-icon-button-light:hover {
+/*ignore this*/
+/*.paper-icon-button-light:hover {
   background-color: rgba(0, 0, 0, 0.4) !important;
-}
+}*/
 
 .raised:hover,
 .fab:hover,
@@ -950,9 +957,10 @@ a[data-role="button"] {
 .listItem-indexnumberleft {
   margin: 1em;
 }
-.listItem {
+/*ignore this*/
+/*.listItem {
   padding-left: 1em;
-}
+}*/
 
 /*Tweak entry fields, checkamarks*/
 .emby-input,
@@ -1025,3 +1033,70 @@ a[data-role="button"] {
 .defaultCardBackground5 {
 	background-color: #666666;
 }
+
+
+/* Hide episode / movie description */
+
+
+div.detailSectionContent  { display: none; }
+
+#childrenContent > div > div > div.listItem-content >div.itemAction > div.secondary.listItem-overview.listItemBodyText { display: none; }
+
+/* Remove Cast & Crew */
+
+#castCollapsible { display: none; }
+
+/*Remove More Like This*/
+
+#similarCollapsible { display: none; }
+
+/* Blackout thumbnails for TV Shows */
+
+
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > button {filter: brightness(0%);} 
+
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > canvas {filter: brightness(0%);} 
+
+#childrenContent > div > div > div.listItem-content > div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast > button {transition: none !important ;border-radius: 0px; height:100%; width:100%; background: rgb(0, 0, 0);}
+
+#childrenContent > div > div > div.listItem-content > div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast > button:hover {border-radius: 0px; height:85%; width:85%; background: rgb(0, 0, 0);}
+
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container > div.padded-top-focusscale.padded-bottom-focusscale.emby-scroller > div > div > div > div.cardScalable > button {filter: brightness(0%);}
+
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container > div.padded-top-focusscale.padded-bottom-focusscale.emby-scroller > div > div > div > div.cardScalable > canvas {filter: brightness(0%);}
+
+#itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailImageContainer.padded-left div.card.backdropCard.card-hoverable.card-withuserdata div.cardBox div.cardScalable button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast {filter: brightness(0%);}
+
+#itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailImageContainer.padded-left div.card.backdropCard.card-hoverable.card-withuserdata div.cardBox div.cardScalable canvas.blurhash-canvas.lazy-blurhash-fadein-fast {filter: brightness(0%);}
+
+
+#itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailImageContainer.padded-left div.card.backdropCard.card-hoverable.card-withuserdata {filter: brightness(0%);}
+
+/* Place watched indicator over blackout */
+
+#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast div.indicators.listItemIndicators { z-index:10; }
+
+/* Hide episode names but still show season/episode number */
+
+
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardText > button {width: 20.2%;}
+
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container > div.padded-top-focusscale.padded-bottom-focusscale.emby-scroller > div > div > div > div.cardText > button {width: 5%;}
+
+#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.secondary.listItemMediaInfo.listItemBodyText { width: max-content; white-space: normal; }
+
+#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.listItemBodyText { width: 4.6%;white-space: nowrap;}
+
+div.card-withuserdata.card-hoverable.overflowBackdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 17.2%;}
+
+div.card-withuserdata.card-hoverable.overflowPortraitCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 33.4%;}
+
+div.card-withuserdata.card-hoverable.backdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 16%;}
+
+#itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon div.infoWrapper.infoText div.nameContainer h3.itemName.infoText.subtitle {width: 13.3%;}
+
+/* Hide star and tomato rating */
+
+div.starRatingContainer.mediaInfoItem {display: none;}
+div.mediaInfoItem.mediaInfoCriticRating.mediaInfoCriticRatingFresh {display: none;}
+div.mediaInfoItem.mediaInfoCriticRating.mediaInfoCriticRatingRotten {display: none;}
