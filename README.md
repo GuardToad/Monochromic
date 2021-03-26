@@ -36,7 +36,7 @@ This theme has some additional options, they can allow the use of a custom accen
 A different itempage to the default of the theme, more reminiscient of "vanilla" as it does not remove the backdrop banner.
 
 ```css
-@import url('https://ctalvio.github.io/guardtoad/alternate-itempage_style.css');
+@import url('https://guardtoad.github.io/Monochromic/alternate-itempage_style.css');
 ```
 ![eight](screenshots/8.png)
 
@@ -46,7 +46,7 @@ A different itempage to the default of the theme, more reminiscient of "vanilla"
 The theme uses mask-image to fade out items below the top bar as you scroll. This works well on most reasonable hardware but struggles on some phones and especially smart TVs. This switches to a method without using mask-image, but foregoes the fade-out effect. I may switch to this method being the default.
 
 ```css
-@import url('https://ctalvio.github.io/guardtoad/improve-performance_style.css');
+@import url('https://guardtoad.github.io/Monochromic/improve-performance_style.css');
 ```
 
 ### Accent color presets 
@@ -54,9 +54,9 @@ The theme uses mask-image to fade out items below the top bar as you scroll. Thi
 Blue restores some of the default jellyfin blue accenting, while purple uses... Well, purple, in a Jellyfin shade of course.
 
 ```css
-@import url('https://ctalvio.github.io/guardtoad/jfblue_style.css');
+@import url('https://guardtoad.github.io/Monochromic/jfblue_style.css');
 
-@import url('https://ctalvio.github.io/guardtoad/jfpurple_style.css');
+@import url('https://guardtoad.github.io/Monochromic/jfpurple_style.css');
 ```
 
 ### Restore bottom bar style episode progress
@@ -64,7 +64,7 @@ Blue restores some of the default jellyfin blue accenting, while purple uses... 
 Don't like my transparent view progress overlay? Use this to go back to the old style.
 
 ```css
-@import url('https://ctalvio.github.io/guardtoad/bottom-progress_style.css');
+@import url('https://guardtoad.github.io/Monochromic/bottom-progress_style.css');
 ```
 
 ### Backdrop on mobile for 10.7.0
@@ -72,14 +72,14 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 This add-on turns the cover image on the mobile item page into a backdrop, since mobile on 10.7.0 has no backdrop for library items on mobile.
 
 ```css
-@import url('https://ctalvio.github.io/guardtoad/backdrop-hack_style.css');
+@import url('https://guardtoad.github.io/Monochromic/backdrop-hack_style.css');
 ```
 
 ### Define your own accent color
 
 This now uses a single RGB value in a variable. This lets me use the color at various transparencies and hence apply the accent more flexibly in places. Use any RGB color picker to find the value for any given color and enter it. **This import line and variable should always be last**.
 ```css
-@import url('https://ctalvio.github.io/guardtoad/customcolor-advanced_style.css');
+@import url('https://guardtoad.github.io/Monochromic/customcolor-advanced_style.css');
 :root {--accent: R, G, B;}
 ```
 
