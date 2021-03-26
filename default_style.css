@@ -1081,7 +1081,7 @@ div.detailSectionContent  { display: none; }
 
 #itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardText > button {width: 20.2%;}
 
-#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container > div.padded-top-focusscale.padded-bottom-focusscale.emby-scroller > div > div > div > div.cardText > button {width: 5%;}
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container > div.padded-top-focusscale.padded-bottom-focusscale.emby-scroller > div > div > div > div.cardText > button {width: 10%;}
 
 #childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.secondary.listItemMediaInfo.listItemBodyText { width: max-content; white-space: normal; }
 
@@ -1093,7 +1093,7 @@ div.card-withuserdata.card-hoverable.overflowPortraitCard.card > .cardBox-bottom
 
 div.card-withuserdata.card-hoverable.backdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 16%;}
 
-#itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon div.infoWrapper.infoText div.nameContainer h3.itemName.infoText.subtitle {width: 13.3%;}
+#itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon div.infoWrapper.infoText div.nameContainer h3.itemName.infoText.subtitle {width: 13.4%;}
 
 /* Hide star and tomato rating */
 
