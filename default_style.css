@@ -1095,6 +1095,12 @@ div.card-withuserdata.card-hoverable.backdropCard.card > .cardBox-bottompadded.c
 
 #itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon div.infoWrapper.infoText div.nameContainer h3.itemName.infoText.subtitle {width: 13.4%;}
 
+.nowPlayingBarSecondaryText > a {display: inline-block; width: 7%; overflow: hidden; text-overflow: ellipsis;}
+
+/* Hide title in player */
+
+div.headerLeft h3.pageTitle {display: none;}
+
 /* Hide star and tomato rating */
 
 div.starRatingContainer.mediaInfoItem {display: none;}
