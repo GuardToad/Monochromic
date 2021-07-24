@@ -69,3 +69,7 @@ div.headerLeft h3.pageTitle {display: none;}
 div.starRatingContainer.mediaInfoItem {display: none;}
 div.mediaInfoItem.mediaInfoCriticRating.mediaInfoCriticRatingFresh {display: none;}
 div.mediaInfoItem.mediaInfoCriticRating.mediaInfoCriticRatingRotten {display: none;}
+
+/* Hide unwatched episode count */
+
+.countIndicator { display: none; }
