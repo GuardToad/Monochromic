@@ -50,7 +50,7 @@ div.detailSectionContent  { display: none; }
 
 #childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.listItemBodyText { width: 4.6%;white-space: nowrap;}
 
-div.card-withuserdata.card-hoverable.overflowBackdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 17.2%;}
+div.card-withuserdata.card-hoverable.overflowBackdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 18%;}
 
 div.card-withuserdata.card-hoverable.overflowPortraitCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 36%;}
 
