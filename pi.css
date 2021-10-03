@@ -48,11 +48,11 @@ div.detailSectionContent  { display: none; }
 
 #childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.secondary.listItemMediaInfo.listItemBodyText { width: max-content; white-space: normal; }
 
-#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.listItemBodyText { width: 4.8%;white-space: nowrap;}
+#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.listItemBodyText { width: 4.6%;white-space: nowrap;}
 
-div.card-withuserdata.card-hoverable.overflowBackdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 18%;}
+div.card-withuserdata.card-hoverable.overflowBackdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 19%;}
 
-div.card-withuserdata.card-hoverable.overflowPortraitCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 36%;}
+div.card-withuserdata.card-hoverable.overflowPortraitCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 38%;}
 
 div.card-withuserdata.card-hoverable.backdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 16%;}
 
