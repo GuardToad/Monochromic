@@ -1057,6 +1057,8 @@ div.detailSectionContent  { display: none; }
 
 #itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > canvas {filter: brightness(0%);} 
 
+#specialsContent.scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX div.card.overflowBackdropCard.card-hoverable.card-withuserdata div.cardBox.cardBox-bottompadded div.cardScalable  {filter: brightness(0%);} 
+
 #childrenContent > div > div > div.listItem-content > div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast > button {transition: none !important ;border-radius: 0px; height:100%; width:100%; background: rgb(0, 0, 0);}
 
 #childrenContent > div > div > div.listItem-content > div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast > button:hover {border-radius: 0px; height:85%; width:85%; background: rgb(0, 0, 0);}
