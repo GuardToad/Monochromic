@@ -1087,7 +1087,7 @@ div.detailSectionContent  { display: none; }
 
 #childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.secondary.listItemMediaInfo.listItemBodyText { width: max-content; white-space: normal; }
 
-#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.listItemBodyText { width: 5%;white-space: nowrap;}
+#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemBody.itemAction div.listItemBodyText { width: 5.5%;white-space: nowrap;}
 
 div.card-withuserdata.card-hoverable.overflowBackdropCard.card > .cardBox-bottompadded.cardBox > .cardText-secondary.cardTextCentered.cardText > .textActionButton.itemAction {width: 17.2%;}
 
