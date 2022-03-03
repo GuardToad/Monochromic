@@ -18,9 +18,7 @@ div.detailSectionContent  { display: none; }
 
 #itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > canvas {filter: brightness(0%);} 
 
-#childrenContent > div > div > div.listItem-content > div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast > button {transition: none !important ;border-radius: 0px; height:100%; width:100%; background: rgb(0, 0, 0);}
-
-#childrenContent > div > div > div.listItem-content > div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast > button:hover {border-radius: 0px; height:85%; width:85%; background: rgb(0, 0, 0);}
+#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast { background-size: 0; background-color: black; }
 
 #itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailPageContent div.verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container div.padded-top-focusscale.padded-bottom-focusscale.emby-scroller div.scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX div.card.overflowBackdropCard.card-hoverable.card-withuserdata div.cardBox.cardBox-bottompadded div.cardScalable button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast  { background-size: 0; background-color: black; }
 
@@ -35,10 +33,6 @@ div.detailSectionContent  { display: none; }
 div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailPageContent div.collectionItems div.verticalSection div.itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right div.card.portraitCard.card-hoverable.card-withuserdata div.cardBox.cardBox-bottompadded div.cardScalable button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast { background-size: 0; background-color: black; }
 
 div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailPageContent div.collectionItems div.verticalSection div.itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right div.card.portraitCard.card-hoverable.card-withuserdata div.cardBox.cardBox-bottompadded div.cardScalable .blurhash-canvas  { filter: brightness(0%)  }
-
-/* Place watched indicator over blackout */
-
-#childrenContent div.childrenItemsContainer.itemsContainer.padded-right.vertical-list div.listItem.listItem-largeImage.listItem-withContentWrapper div.listItem-content div.listItemImage.listItemImage-large.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast div.indicators.listItemIndicators { z-index:10; }
 
 /* Hide episode names but still show season/episode number */
 
