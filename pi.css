@@ -14,7 +14,7 @@ div.detailSectionContent  { display: none; }
 
 /* Blackout thumbnails for TV Shows */
 
-#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > button {filter: brightness(0%);} 
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > button { background-size: 0; background-color: black; } 
 
 #itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.nextUpSection.verticalSection.detailVerticalSection > div > div > div > div.cardScalable > canvas {filter: brightness(0%);} 
 
