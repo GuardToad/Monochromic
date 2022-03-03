@@ -58,6 +58,8 @@ div.card-withuserdata.card-hoverable.backdropCard.card > .cardBox-bottompadded.c
 
 #itemDetailPage.page.libraryPage.itemDetailPage.noSecondaryNavPage.selfBackdropPage.mainAnimatedPage div.detailPageWrapperContainer div.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon div.infoWrapper.infoText div.nameContainer h3.itemName.infoText.subtitle {width: 13.4%;}
 
+div.detailPageWrapperContainer div.detailPageSecondaryContainer div.detailPageContent div.collectionItems div.verticalSection div.itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right div.card.portraitCard.card-hoverable.card-withuserdata div.cardBox.cardBox-bottompadded div.cardText.cardTextCentered.cardText-first button.itemAction.textActionButton {  width: 60%; }
+
 .nowPlayingBarSecondaryText > a {display: inline-block; width: 7%; overflow: hidden; text-overflow: ellipsis;}
 
 /* Hide title in player */
